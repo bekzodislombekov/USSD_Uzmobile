@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "800099348291",
+    "project_id": "ussd-uzmobile-84d5d",
+    "storage_bucket": "ussd-uzmobile-84d5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800099348291:android:206f38e5abbaaab24209f6",
+        "android_client_info": {
+          "package_name": "com.android.example.ussduzmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800099348291-4ktj901rmmgcfth36ck7lsc9jhd48o2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.example.ussduzmobile",
+            "certificate_hash": "224adc8e040ac1563645ad2478302d350f40e021"
+          }
+        },
+        {
+          "client_id": "800099348291-vgnut9doovas53sfo8ivjfbfolt7nprj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVFkArbi2HI_4xWC52K5E2Iob6OiAztFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800099348291-vgnut9doovas53sfo8ivjfbfolt7nprj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

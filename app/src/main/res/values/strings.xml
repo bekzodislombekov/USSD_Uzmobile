@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name" translatable="false">USSD Uzmobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="text" translatable="false">Tarif rejasi  jismoniy va yuridik shaxslar uchun, 2019-yil  1-fеvraldan 30-iyunga qadar taqdim etiladi.
+Kiritilgan daqiqa limiti, MB, SMS 1 kalеndar oyiga taqdim etiladi.
+Tarif rejasiga «O‘zbеktеlеkom» AK sotuvlar ofisi, shuningdek, dilеrlar orqali ulanish mumkin.
+Abonеnt to‘lovini hisoblash abonеnt faol bo‘lganida amalga oshiriladi.  Agar abonеnt hisobida pul mablag‘i yetarli bo‘lmaganligi sababli abonеnt bloklangan bo‘lsa, to‘lov kiritilmaguniga qadar to‘lov hisoblanmaydi.
+ Ushbu tarif rejasiga ulanish yoki unga o‘tishda abonent to‘lovi kalendar oyidagi qolgan kunlar soniga nisbatan, kiritilgan daqiqalar, SMS va Internet trafigi, shuningdek, qolgan kunlar soni bo‘yicha (to‘liq daqiqaga yaxlitlangan holda) hisoblab chiqiladi.</string>
+
+    <string name="text1" translatable="false">Agar abonentda ADSL texnologiyasidan foydalangan holda IPTV xizmati
+mavjud bolsa, tarif rejasida korsatilgan tezlikni taminlash uchun texnik
+imkoniyat UZTELECOM savdo idorasiga yozma ariza bilan belgilanadi.</string>
+
+    <!--uzbek-latin lan-->
+    <string name="check_internet_btn">Trafikni tekshirish</string>
+    <string name="check_minute_btn">Daqiqani tekshirish</string>
+    <string name="check_message_btn">SMS ni tekshirish</string>
+    <string name="service_title">Xizmatlar</string>
+    <string name="internet_title">Internet</string>
+    <string name="minute_title">Daqiqa</string>
+    <string name="message_title">SMS</string>
+    <string name="check_tariff_btn">Tarifni tekshirish</string>
+    <string name="tariff_title">Tariflar</string>
+    <string name="ussd_title">USSD</string>
+    <string name="connect_with_operator">Operator bilan bog\'lanish</string>
+
+    <!--russian lan-->
+    <string name="slogan_ru">НАЦИОНАЛЬНЫЙ ОПЕРАТОР</string>
+    <string name="check_internet_btn_ru">Проверка трафика</string>
+    <string name="check_minute_btn_ru">Проверка минута</string>
+    <string name="check_message_btn_ru">Проверка СМС</string>
+    <string name="service_title_ru">Услуги</string>
+    <string name="internet_title_ru">Интернет</string>
+    <string name="minute_title_ru">Минуты</string>
+    <string name="message_title_ru">СМС</string>
+    <string name="check_tariff_btn_ru">Проверка тарифов</string>
+    <string name="tariff_title_ru">Тарифы</string>
+    <string name="ussd_title_ru">USSD</string>
+    <string name="balance_title_ru">Баланс</string>
+    <string name="operator_title_ru">Оператор</string>
+    <string name="notification_title_ru">Новости</string>
+    <string name="settings_title_ru">Настройки</string>
+    <string name="connect_with_operator_ru">Связаться с оператором</string>
+
+
+    <!--uzbek-ciril lan-->
+    <string name="slogan_uz">МИЛЛИЙ ОПЕРAТОР</string>
+    <string name="check_internet_btn_uz">Трафикни текшириш</string>
+    <string name="check_minute_btn_uz">Дақиқани текшириш</string>
+    <string name="check_message_btn_uz">СМС ни текшириш</string>
+    <string name="service_title_uz">Хизматлар</string>
+    <string name="internet_title_uz">Интернет</string>
+    <string name="minute_title_uz">Дақиқа</string>
+    <string name="message_title_uz">СМС</string>
+    <string name="check_tariff_btn_uz">Тарифни текшириш</string>
+    <string name="tariff_title_uz">Тарифлар</string>
+    <string name="ussd_title_uz">USSD</string>
+    <string name="balance_title_uz">Баланс</string>
+    <string name="operator_title_uz">Оператор</string>
+    <string name="notification_title_uz">Янгиликлар</string>
+    <string name="settings_title_uz">Созламалар</string>
+    <string name="connect_with_operator_uz">Оператор билан боғланиш</string>
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>

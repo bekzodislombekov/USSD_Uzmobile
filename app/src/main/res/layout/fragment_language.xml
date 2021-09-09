@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.LanguageFragment">
+
+    <ImageView
+        android:id="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/uzmobile_logo_mini" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/uz"
+        app:layout_constraintBottom_toTopOf="@id/ru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginHorizontal="@dimen/_80sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:background="@drawable/bg_lan_btn"
+        android:fontFamily="@font/rubik_regular"
+        android:text="O'zbek"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ru"
+        app:layout_constraintBottom_toTopOf="@id/en"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/uz"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginHorizontal="@dimen/_80sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:background="@drawable/bg_lan_btn"
+        android:fontFamily="@font/rubik_regular"
+        android:text="Русский"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/en"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ru"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginHorizontal="@dimen/_80sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:background="@drawable/bg_lan_btn"
+        android:fontFamily="@font/rubik_regular"
+        android:text="English"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/rubik_regular"
+        android:text="DM Mobile Group"
+        android:textColor="@color/black" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
